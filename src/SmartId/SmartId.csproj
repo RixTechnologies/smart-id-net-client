@@ -7,7 +7,7 @@
     <Version>2.4</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>SK.SmartId</PackageId>
+    <PackageId>Rixtech.SmartId</PackageId>
     <authors>dmitry.bogatykh</authors>
     <Company>RixTechnologies</Company>
     <PackageDescription>Smart-ID .NET client</PackageDescription>
