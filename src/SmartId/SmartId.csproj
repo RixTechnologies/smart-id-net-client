@@ -4,7 +4,17 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>SK.SmartId</RootNamespace>
     <AssemblyName>SK.SmartId</AssemblyName>
-    <Version>2.3</Version>
+    <Version>2.4</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SK.SmartId</PackageId>
+    <authors>dmitry.bogatykh</authors>
+    <Company>RixTechnologies</Company>
+    <PackageDescription>Smart-ID .NET client</PackageDescription>
+    <RepositoryUrl>https://github.com/RixTechnologies/smart-id-net-client</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/RixTechnologies/smart-id-net-client</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,6 +34,10 @@
   <ItemGroup>
     <PackageReference Include="BouncyCastle.Cryptography" Version="2.4.0" />
     <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
